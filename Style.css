@@ -1,0 +1,83 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+nav
+{
+background-color: rgb(19, 126, 168);
+}
+
+nav .en-tete ul
+{
+    display: flex;
+    padding: 10px;
+    color: white;
+}
+
+nav .en-tete ul li
+{
+    color: white;
+    list-style: none;
+    margin-right: 30px;
+    cursor: pointer;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav .en-tete ul li a
+{
+    color: white;
+    text-decoration: none;
+}
+
+form {
+
+    background-color: rgb(13, 122, 165);
+    border-radius: 30px;
+    padding: 10px;
+    margin: 20px;
+    
+}
+    label{ 
+        display: inline;
+        margin-bottom: 10px;
+    }
+    input [type="text"] ,                        
+    input[type="email"]
+    {
+        width: 50%;
+        padding: 20px;
+        margin-bottom: 10px;
+    }
+.highlight{
+    background-color: red;
+}
+nav .headerForm{
+    margin: 0px ;
+    padding: 10px ;
+    color: white;
+    list-style: none;
+    margin: 0px;
+    cursor: pointer;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+   
+    border-radius: 50px;
+    text-align: center;
+}
+.headerForm a{
+    color: white;
+    text-decoration: none;
+
+}
+ h1{
+    text-align: center;
+} 
+
+.footer{
+    background: rgb(19, 126, 168);
+    padding: 10px;
+    
+}

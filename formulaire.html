@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Formulaire</title>
+    <link rel="stylesheet" href="Style.css">
+    <script src="formulaire.js"> </script>
+</head>
+<body>
+    <nav>
+        <div class="headerForm">
+             <li><a href="index.html">Accueil</a></li>
+        </div>
+    </nav>
+    
+    <h1>Formulaire d'inscription</h1>
+    <form action="" method="">
+        <label for="">Votre nom</label>
+        <input 
+        type="text"
+        name= "nom"
+        placeholder="Votre nom"
+        autofocus
+        required
+
+ />
+    
+ <br><br>
+ <label for="">Votre prenom</label>
+ <input 
+    type="text"
+    name= "prenom"
+    placeholder="Votre prenom"
+    autofocus
+    required
+/> <br><br>
+
+<label for="description">Votre description</label>
+ <textarea name="description" id="" cols="40" rows="5" style="background-color: white;" placeholder="Votre description" ></textarea><br><br>
+ 
+ <label for="sexe">Votre sexe</label>
+ <select name="sexe" id="sexe">
+    <option value="M">Masculin</option>
+    <option value="F">Feminin</option>
+ </select> 
+ <br><br>
+
+<label for="email">Adresse email:</label>
+<input type="email" id="email" name="email"> <br><br>
+
+ <label for="Language">Language de programmation</label>
+    <select name="Language" id="Language">
+    <option value="C">C++</option>
+    <option value="Dart">Dart</option>
+    <option value="Js">Java_Script</option>
+ </select>
+ <br><br>
+
+ <input type="submit" value="Reset" onclick="resetForm()">
+ <input type="submit" value="Valider" onclick="validerForm()">
+
+    </form>
+    <footer>Copyright chcl@2Co5.7</footer>
+    
+</body>
+</html>
